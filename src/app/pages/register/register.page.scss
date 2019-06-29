@@ -1,0 +1,38 @@
+.fundo {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+}
+ion-item {
+  width: 300px;
+}
+.logo {
+  width: 160px;
+  height: 120px;
+  margin-top:-200px;
+}
+.titulo {
+  color: #000;
+}
+ion-item {
+  color: #000;
+  border: 1px solid #000;
+  border-radius:4px;
+}
+.input {
+  border: none;
+  border-radius: 20px;
+  width: 200px;
+}
+.link-cadastro {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 31%;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  color: #FFF;
+}

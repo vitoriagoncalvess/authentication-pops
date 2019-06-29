@@ -1,0 +1,27 @@
+<ion-content>
+  <div class="fundo">
+    <ion-slide>
+      <ion-slide>
+        <div class="slide-inner ion-padding">
+          <img src="./../../../assets/img/logo-orange.png" class="logo">
+
+          <ion-item class="ion-margin-top" lines="none">
+              <ion-input type="email" placeholder="E-mail" class="input" [(ngModel)]="userLogin.email"></ion-input>
+          </ion-item>
+
+          <ion-item class="ion-margin-top" lines="none">
+            <ion-input type="password" placeholder="Senha" class="input" [(ngModel)]="userLogin.password"></ion-input>
+          </ion-item>
+
+          <ion-button class="ion-margin-top" (click)="login()" color="light" expand="block">
+              ENTRAR
+          </ion-button>
+        </div>
+      </ion-slide>
+
+      
+    </ion-slide>
+
+    <span class="link-cadastro">Não tem cadastro? Participe da rede Pop's</span>
+  </div>
+</ion-content>
